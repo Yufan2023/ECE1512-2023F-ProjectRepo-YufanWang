@@ -6,7 +6,7 @@ Requirement:
 
 In Task_1 codes (Task_1_complete.py, Task_1_12_Compared.py, Task_1_12.py). They need to import the TensorFlow library, TensorFlow's Keras API, MNIST dataset from TensorFlow's built-in datasets, Adam, and pyplot module from Matplotlib. Ensure that TensorFlow and Matplotlib are installed in your Python environment. These imports allow for building neural network models, accessing the MNIST dataset, optimizing models during training, and visualizing data and results.
 
-      pip install tensorflow numpy pandas scikit-learn
+      pip install tensorflow numpy pandas scikit-learn matplotlib
 
       
 In Task_2 codes (Task_2.py, Task_2_12.py, Task_2_without KD.py). Ensure TensorFlow, NumPy, Pandas, and scikit-learn are installed in the Python environment. Notably, running the codes needs to set the path to the required MHIST dataset which I uploaded to my desktop and google drive. You have to get the dataset first, and change the path according to your condition.
