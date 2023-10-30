@@ -40,7 +40,7 @@ def train_and_evaluate(model, train_images, train_labels, test_images, test_labe
     test_loss, test_accuracy = model.evaluate(test_images, test_labels)
 
     if model_name:
-        model.save(model_name)  # Save the model if a model name is provided
+        model.save(model_name)  
 
     return test_accuracy
 
